@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Responsive PortFolio</title>
+    <link rel="stylesheet" href="Web.css">
+    <script src="ext" language="javascript"></script>
+</head>
+<body>
+    <!-- Creating Menu Tabs & Logo at Top Using HTML -->
+    <header>
+        <a href="#" class="logo">Portfolio</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <!-- <li><a href="#services" onclick="toggleMenu();">Services</a></li> -->
+            <li><a href="#work" onclick="toggleMenu();">Work</a></li>
+            <li><a href="#testimonial" onclick="toggleMenu();">Testimonial</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </header>
+
+    <!-- Creating Banner Layout in HTML -->
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2>Hello, I'm<br> <span>Sebakungu Tuyisenge</span></h2>
+            <h3>Cybersecurity Specialist.</h3>
+            <a href="#about" class="btn">About Me</a>
+        </div>
+    </section>
+
+    <!-- Creating About Me Layout in HTML -->
+    <section class="about" id="about">
+        <div class="heading">
+            <p>Get to Know me</p>
+            <h2>About Me</h2>
+        </div>
+        <div class="content">
+            <div class="w50">
+                <img src="Images/My image.PNG" alt="" class="proPic">
+            </div>
+            <div class="contentBx w50">
+                <h3>Who am i?</h3>
+                <h2>I'm <b>Sebakungu Tuyisenge, a Cybersecurity Specialist and USSD developer</h2>
+                <p>I hold Bachelor of Art in Communication concentration in Business from Southern New Hampshire University. Currently, I completed Accelerated Cybersecurity Bootcamp of 480 hours covering Network Administration, Network Security, Incident Handling, Cyber Forensics, Malware Analysis, Incident Response, Risk Management, Ethical Hacking, and Threat Intelligence with full day scenarios on hands of protecting a network from a range of cyber-attacks (DDOS, SQL injection, XSS, Ransomware). I always Strive to learn programming, IT skills, and so interested to apply learned skills to make our digital world safer.</p><br>
+
+                <div class="heading bottom">
+                    <a href="Images/Resume.pdf" target="" class="btn round">Download CV</a>
+                    <div class="bt">
+                        <b>Name:</b> Sebakungu Tuyisenge<br>
+                        <b>Age:</b> 23
+                    </div>
+                    <div class="bt">
+                        <b>Email:</b> sebakungu.ty33@gmail.com<br>
+                        <b>Location:</b> Rwanda
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+
+    <section class="work" id="work">
+        <div class="heading">
+            <h2>My Lastest Achievement/Work</h2>
+            <p>My cerificateS<b></p>
+        </div>
+        <div class="content">
+            <div class="workBx">
+               
+                    <img src="Images/Cybint Certificate.jpg" alt="">
+                    <p>The above is cerificate I awarded as Cybersecurity Specialist from Cybersecurity bootcamp which  was accredited by Cybintsolutions</p>
+                </a>
+            </div>
+            <div class="workBx">
+                
+                    <img src="Images/Manage Network Security.PNG" alt="">
+                    <p>This is a cerficate, I awarded  from Coursera platform. In this course I learned how to  examines the threats associated with using internal and external networks and how to manage the protection of information when it’s accessible via networks.</p>
+                </a>
+            </div>
+            <div class="workBx">
+                
+                    <img src="Images/Python1.PNG" alt="">
+                    <p>Currently, I completed Kiziba coding programm. In this program,  I learned how to create USSD Application by using python that might be used by our community to get realiable informaton from patners.With this being said, I'm USSD developer because I can create simple USSD on my own, and awarded certificate will be updated on this portifolio soon!</p>
+                </a>
+            </div>
+            <div class="workBx">
+                
+                    <img src="Images/Advanced Writing.PNG" alt="">
+                    <p>This is the third course in the Academic English: Writing specialization, and it is a more advanced writing course.  In this course, I  learned what plagiarism is and how to avoid it using correct MLA citations. Also, I learned  to write a synthesis essay, which will help develop your critical thinking skills. Finally, I  wrote  a documented essay, which will help further enhance my skill of using outside sources in my writing.</p>
+                </a>
+            </div>
+            
+    </section>
+    <div class="heading">
+        <a href="https://docs.google.com/document/d/19HeoFnGxxQXNK5OaKbBdU5xrlhdZBwGovnfFmeqBwNo/edit?usp=sharing" target="_blank" class="btn" style="color:#fff;">View my skills and experience on my resume</a>
+    </div>
+
+
+    <!-- Creating Testimonial Layout in HTML -->
+    <section class="testimonial" id="testimonial">
+        <div class="heading white">
+            <h2>Testimonial</h2>
+            <p>What other people think about me</p>
+        </div>
+        <div class="content">
+            <div class="testimonialBx">
+                <p>Sebakungu has a personality anyone can resonate with, he is hard working, and always willing to learn something new. When I was working with Sebakungu in buidling USSD application, he demonstrated very good programming practices thought the interety of the project. </p>
+                <h3>Clarise Uwamahoro<br>Learning coach</h3>
+            </div>
+            <div class="testimonialBx">
+                <p>I have enjoyed working with Sebakungu Tuyisenge during our cybersecurity Bootcamp at Cybint Solutions. I know him with his ambition to explore every new topic. He is an exceptional team player, and he enjoys motivating others and stays optimistic when things get tough. I learned a lot from him including dedication, self-motivation, stress management, etc. He has a strong focus while working on a serious task and use his problem-solving skills to overcome any challenges by seeking help when necessary. I do not doubt that he will advance quickly in his career</p><h3>Jean Pierre Imanirumwa<br>Cybersecurity Specalist</h3>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Creating Contact Layout in HTML -->
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <p>Feel free to contact me anytimes</p>
+            <h2>Get in Touch</h2>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Contact Info</h3>
+                <p>Feel free to contact me!</p>
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>Western Province,<br>Karongi district</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Phone number :</h3>
+                            <p>(+250)7868008717</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope-o"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email Address</h3>
+                            <p>sebakungu.ty33@gmail.com</p>
+                        </div>
+                    </div>
+                    <br>
+                    <h3>Social Connect</h3>
+                    <div class="boxSocial">
+                        <div class="icon">
+                            <a href="https://www.linkedin.com/feed/?msgConversationId=6564817892905496576&msgOverlay=true&trk=false" target="_blank">
+                                <img src="Images/LinkedIn3.png" alt="" width="30px" height="35px">
+                                
+                            </a>    
+                                
+                            
+                        </div>&nbsp;
+                        <div class="icon">
+                            <a href="https://twitter.com/BBCBreaking" target="_blank">
+                                <img src="Images/Twitter.png" alt="" width="30px" height="35px">
+                            </a>
+                        </div>&nbsp;
+                        <div class="icon">
+                            <a href="https://www.instagram.com/?hl=en" target="_blank">
+                                <img src="Images/Instragram1.jpg" alt="" width="30px" height="35px">
+                            </a>
+                        </div>&nbsp;
+                        <div class="icon">
+                            <a href="https://web.facebook.com/sebakungu.tuyisenge?_rdc=1&_rdr" target="_blank">
+                                <img src="Images/Facebook.jpg" alt="" width="30px" height="35px">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="formBx">
+                <form>
+                    <h3>Message Me</h3>
+                    <input type="text" placeholder="Full Name" name="">
+                    <input type="email" placeholder="Email" name="">
+                    <textarea name="" rows="6" id="" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send Message" name="">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating Footer Layout in HTML -->
+    <footer class="copyright">
+        <p>&copy; 2021, My Personal Website.com, Allrights reserved</p><br>
+        
+    </footer>
+</body>
+</html>
